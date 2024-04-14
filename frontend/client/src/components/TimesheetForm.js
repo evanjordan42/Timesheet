@@ -35,6 +35,7 @@ function TimesheetForm({ setTimesheets }) {
       setForm({ description: '', lineItems: [{ date: '', minutes: 0 }], rate: 0 });
     } catch (error) {
       console.error('Failed to save timesheet:', error.response ? error.response.data : error.message);
+      alert('Error saving timesheet, please ensure no fields are empty!')
     }
   };
 
