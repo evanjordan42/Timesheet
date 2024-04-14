@@ -6,7 +6,7 @@
 ### Installation
 
 1. Clone this repo to your device `git clone https://github.com/evanjordan42/Timesheet.git`.
-2. Navigate to the `Timesheet Assessment` folder in the terminal.
+2. Navigate to the `Timesheet` folder in the terminal.
 
 ### Initializing Server
 
